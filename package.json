@@ -1,0 +1,34 @@
+{
+  "name": "quickstart-server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "^1.9.0",
+    "express": "2.5.10",
+    "jade": ">= 0.26.1",
+    "socket.io": ">= 0.9.6"
+  },
+  "devDependencies": {
+    "coffeeify": "latest",
+    "connect-livereload": "latest",
+    "del": "^1.1.1",
+    "express": "latest",
+    "gulp": "latest",
+    "gulp-angular-templatecache": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-browserify": "latest",
+    "gulp-cache": "^0.2.4",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "latest",
+    "gulp-cssmin": "latest",
+    "gulp-embedlr": "latest",
+    "gulp-livereload": "latest",
+    "gulp-load-plugins": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.2",
+    "tiny-lr": "latest"
+  }
+}

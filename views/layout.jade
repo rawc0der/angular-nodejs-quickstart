@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    meta(charset='utf8')
+    base(href='/')
+    title Quickstart App
+    link(rel='stylesheet', href='/css/app.css')
+    //- link(rel='stylesheet', href='/css/vendor.css')
+    //- link(rel='stylesheet', href='/css/client.css')
+  
+  body
+    div(ng-app="quickstartApp")
+      div(ui-view)
+        div(ui-view="content")
+
+    script(src="js/vendor.build.js")
+    script(src="js/templates.build.js")
+    script(src="js/client.build.js")
+
+
